@@ -31,7 +31,13 @@
 
         <input type="number" id="number" required placeholder="age" min="18" max="199" >
 
-        <select id="dropdown"> </select>
+         <select id="dropdown" name="job" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="openSource">Open Source</option>
+        </select>
 
         <div class="form-group">
           <p>Would you recommend microverse to a friend/colleague?</p>

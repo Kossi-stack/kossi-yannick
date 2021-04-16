@@ -34,7 +34,7 @@
         <select id="dropdown"> </select>
 
         <div class="form-group">
-          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <p>Would you recommend microverse to a friend/colleague?</p>
           
           <label>
             <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked />Definitely
@@ -49,9 +49,52 @@
             </label>
         </div>
 
+        <h3>What would you like to see improved? (Check all that apply)</h3>
+        <div class="checkboxes">
+          <input type="checkbox" value="Front-end Projects" id="front-end">
+          <label for="front-end">Front-end Projects</label>
+        </div>
+        
 
+        <div class="checkboxes">
+          <input type="checkbox" value="Back-end Projects" id="back-end">
+          <label for="back-end">Back-end Projects</label>
 
+        </div>
+        
+        <div class="checkboxes">
+          <input type="checkbox" value="Data Visualization" id="data-visualization">
+          <label for="data-visualization">Data Visualization</label>
+        </div>
+        
 
+        <div class="checkboxes">
+          <input type="checkbox" value="Challenges" id="challenges">
+          <label for="challenges">Challenges</label>
+        </div>
+       
+
+        <div class="checkboxes">
+          <input type="checkbox" value="Open Source Community" id="open-source">
+          <label for="open-source">Open Source Community</label>
+        </div>
+        
+
+        <div class="checkboxes">
+          <input type="checkbox" value="Forum" id="forum">
+          <label for="forum">Forum</label>
+        </div>
+        
+        
+        <div class="checkboxes">
+          <input type="checkbox" value="Additional Courses" id="additional-courses">
+          <label for="additional-courses">Additional Courses</label>
+        </div>
+
+        <h3>Any comments or suggestions?</h3>
+        <textarea placeholder="Enter your comment here..." rows="8" ></textarea>
+
+        <input type="submit" id="submit" value="Submit">
       
     </form>
 

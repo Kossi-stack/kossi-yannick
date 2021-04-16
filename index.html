@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Survey form</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -20,14 +20,16 @@
         
          
     <form id="survey-form">
-      
+      <label for= "name" id="name-label">Name</label>
         <input type="text" id="name" placeholder="Enter your name" required>
         
-        
+        <label for= "email" id="email-label">Email</label>
         <input type="text" id="name" required placeholder="Enter your name">
+
+        <label for= "number" id="number-label">Age (Optional)</label>
         <input type="email" id="email" name= "email" required placeholder="Enter your email" >
 
-        <input type="number" id="number" placeholder="Enter number" required>
+        <input type="number" id="number" required placeholder="age" min="18" max="199" >
 
         <select id="dropdown"> </select>
 
@@ -46,6 +48,8 @@
               <input name="user-recommend" value="not-sure" type="radio" class="input-radio"/>Not sure
             </label>
         </div>
+
+
 
 
       
